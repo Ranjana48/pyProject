@@ -16,7 +16,7 @@ qr_code.add_data(url)
 qr_code.make(fit=True)
 
 img = qr_code.make_image(
-    fill_color="skyblue",
+    fill_color="lightblue",
     back_color="white"
 )
 
